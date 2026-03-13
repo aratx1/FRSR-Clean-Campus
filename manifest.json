@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "UTN FRSR Clean Campus",
+  "version": "1.0",
+  "description": "Oculta materias del campus virtual",
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icon.jpg"
+  },
+  "action": {
+    "default_icon": "icon.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://campus.frsr.utn.edu.ar/moodle/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
