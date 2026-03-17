@@ -1,3 +1,5 @@
+Esta actualización ha sido posible gracias a un contribuidor anónimo de Ingenieria en Sistemas, muchas gracias !
+
 Disponible para:
 
 Google Chrome, Brave, Microsoft Edge y Opera Gx
