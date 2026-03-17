@@ -15,7 +15,9 @@ Configuración:
 
 
    TODO LISTO LOCO !!!
-Nota: Esta extensión NO te elimina del curso. Si quieres volver a ver las materias ocultas borra el nombre de la materia en el archivo content.js y guarda el archivo. Elimina la extensión de tu navegador y después adjunta la nueva extensión actualizada al apartado de extensiones de tu navegador. Solo funciona para computadora 
+Nota: Esta extensión NO te elimina del curso. Si quieres volver a ver las materias ocultas borra el nombre de la materia en el archivo content.js y guarda el archivo. Elimina la extensión de tu navegador y después adjunta la nueva extensión actualizada al apartado de extensiones de tu navegador. Solo funciona para computadora
+
+ACTUALIZACIÓN OCULTANDO EL DROPDOWN DE "Mis cursos": https://github.com/aratx1/FRSR-Clean-Campus/tree/%2B_hide_dropdown
 
 Si tienes algún problema con la extensión o quieres sugerirme una idea puedes preguntar por Arantxa Reinoso en el grupo de UTN Chat General o Finales UTN. 
 Si te sirvió la extensión considera seguirme y añadir a favoritos este código. 
