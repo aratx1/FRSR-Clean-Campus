@@ -16,7 +16,7 @@ function limpiarCampus() {
 
         const textoTarjeta = tarjeta.innerText;
 
-        const debeOcultarse = materiasAOcultar.some(nombre => 
+        const debeOcultarse = materiasAOcultar.some(nombre =>
             textoTarjeta.toLowerCase().includes(nombre.toLowerCase())
         );
 
