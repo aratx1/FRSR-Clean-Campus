@@ -1,6 +1,6 @@
 Disponible para:
 
-Google Chrome, Brave, Microsoft Edge y Opera Gx
+Google Chrome, Brave, Microsoft Edge, Opera Gx, Mozilla Firefox y derivados (Zen Browser, Waterfox, etc.)
 
 Configuración:
 
@@ -9,9 +9,19 @@ Configuración:
 3. En tu campus de FRSR busca el nombre de la materia que quieres que se borre y copialo sin ignorar espacios, mayusculas o simbolos especiales
 4. Abre el archivo content.js con el bloc de notas o algun visualizador de codigo como visual studio code y pega el nombre de las materias que quieres borrar entre las comillas, reemplazando "materia1", "materia2" etc. Puedes añadir más materias respetando la sintaxis del código. Si nunca has tocado este tipo de código y quieres que chatgpt lo haga por ti dale este prompt junto a una lista de los nombres de las materias y todo el codigo de content.js: mira este código y cambia el listado de "materia1", "materia2" etc... por el siguiente listado, cambia unicamente eso, no elimines ni añadas nada mas.
 5. Guarda los cambios hechos
-6. Activa el modo desarrollador en las extensiones de tu buscador
-7. Desplaza la carpeta con los tres archivos al apartado de extensiones de tu navegador
-8. Recarga la página del campus
+### Instalación en navegadores basados en Chromium (Chrome, Edge, Brave, Opera):
+6. Ve a la configuración de extensiones de tu navegador. Puedes hacerlo escribiendo lo siguiente en la barra de direcciones según tu navegador:
+   - Chrome/Brave: `chrome://extensions/`
+   - Edge: `edge://extensions/`
+   - Opera: `opera://extensions/`
+7. Activa el "Modo desarrollador" (suele ser un interruptor en la esquina superior derecha o en el panel lateral).
+8. Arrastra la carpeta que descomprimiste (la que contiene `content.js`, `manifest.json`, etc.) y suéltala en cualquier parte de la página de extensiones. También puedes usar el botón de "Cargar descomprimida" y seleccionar la carpeta en el explorador de archivos.
+
+### Instalación en navegadores basados en Gecko (Firefox, Zen, Waterfox, etc.):
+9. Escribe `about:debugging#/runtime/this-firefox` en la barra de direcciones y presiona Enter.
+10. Haz clic en el botón "Cargar complemento temporal..." y selecciona el archivo `manifest.json` (o cualquier archivo dentro de la carpeta descomprimida).
+
+11. Recarga la página del campus
 
 
    TODO LISTO LOCO !!!
