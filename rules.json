@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://campus.frsr.utn.edu.ar/moodle/my/courses.php" }
+    },
+    "condition": {
+      "urlFilter": "campus.frsr.utn.edu.ar/moodle/my/index.php",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://campus.frsr.utn.edu.ar/moodle/my/courses.php" }
+    },
+    "condition": {
+      "urlFilter": "campus.frsr.utn.edu.ar/moodle/my/|",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

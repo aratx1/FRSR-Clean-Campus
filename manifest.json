@@ -1,20 +1,40 @@
 {
   "manifest_version": 3,
-  "name": "UTN FRSR Clean Campus",
+  "name": "Moodle FRSR Redirect",
   "version": "1.0",
-  "description": "Oculta materias del campus virtual",
-  "permissions": ["activeTab"],
+  "description": "Redirige automáticamente de la vista principal a la lista de cursos ('courses.php') en el campus virtual de la FRSR UTN.",
   "icons": {
-    "128": "icon.jpg"
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon.png"
   },
-  "action": {
-    "default_icon": "icon.jpg"
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://campus.frsr.utn.edu.ar/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
   },
-  "content_scripts": [
-    {
-      "matches": ["https://campus.frsr.utn.edu.ar/moodle/*"],
-      "js": ["content.js"],
-      "run_at": "document_idle"
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "frsr-clean-campus@nicosgandurra.github.io",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
     }
-  ]
+  }
 }
